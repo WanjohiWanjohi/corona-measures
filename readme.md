@@ -5,9 +5,12 @@ In late 2019 , the spread of the corona virus was limited to the Asias and only 
 
 ## Objective
 
-For the week of 10th August , it is the goal of this project to find the possible number of infected persons given the different policies implemented.
-The change points considered are :
-    -
+For the week of 10th August , it is the goal of this project to find the possible number of infected persons given the different policies implemented by the Senegalese government.
+
+The change points considered prior are :
+    - 10/03/2020 : All learning and religious instituions shut down
+    - 16/03/2020: Travel ban declared both locally and externally
+    - 31/03/2020: Declaration of a national state of emergency
 
 
 ## Tools and Methods used
@@ -19,7 +22,7 @@ There are four parameters to be estimated in the SIR model from data:
     - the initial population size I0 when time (t) = 0 (t=0)
     - variance q=1/τ for the noise distribution in the data.
 
-   More information about the SIR model can be found in this paper by John Dehning et all (2020) here: https://science.sciencemag.org/content/sci/369       /6500/eabb9789.full.pdf
+    More information about the SIR model can be found in this paper by John Dehning et all (2020) here: https://science.sciencemag.org/content/sci/369       /6500/eabb9789.full.pdf
 
 2. PyMC3 - a standard Bayseian modelling package in Python. More information about the PyMC3 modelcan be found here : https://docs.pymc.io/notebooks/api_quickstart.html
 
@@ -32,8 +35,6 @@ There are four parameters to be estimated in the SIR model from data:
 
     In this case the fixed variable (B) is the implemented policy.
  
-
-## Assumptions
 
 
 ## Limitations and Challenges
