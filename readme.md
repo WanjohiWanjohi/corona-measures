@@ -8,6 +8,7 @@ In late 2019 , the spread of the corona virus was limited to the Asias and only 
 For the week of 10th August , it is the goal of this project to find the possible number of infected persons given the different policies implemented by the Senegalese government.
 
 The change points considered prior are :
+
     - 10/03/2020 : All learning and religious instituions shut down
     - 16/03/2020: Travel ban declared both locally and externally
     - 31/03/2020: Declaration of a national state of emergency
