@@ -51,3 +51,8 @@ A linkage between the transmission rate β and the diagnosis rate ρ .  The link
         
         
 ## Conclusions
+From the process observed , there are three possible scenarios for the spread rate of COVID-19 in Senegal:
+    1. Continuing in the same way given no extra measures are implemented. 
+    2. Implementing mild social distancing measure that would see the transmission rate = 0.5
+    3. Implementing strong social distancing measures that would result in a transmission rate ≈ 0.2
+    
